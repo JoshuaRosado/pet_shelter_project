@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yellow Belt Exam</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="nav">
+        <div class="header">
+            <div class="title">
+                <img class="heart_light" src="assets/heart-light.png" alt="heart">
+                <h1 class="pet_shelter">Pet Shelter
+                </h1>
+            </div>
+            <ul class="links">
+                <li class="find_btn"><a href="#">Find a Pet</a></li>
+                <li class="about_btn"><a href="#">About</a></li>
+                <li class="donate_btn" onclick="hide(this)"><a href="#"><span class="donate">Donate</span></a></li>
+            </ul>
+        </div>
+        <div class="footer">
+            <div class="box1">
+                <p class="p1">I'm looking for a...</p>
+                <img class="img" src="assets/paw-light.png" alt="paw">
+                <select class="select_btn" name="pets" id="test-dropdown" onchange="choice2(this)">
+                    <option value="1">Any Pets</option>
+                    <option value="2">Cat</option>
+                    <option value="3">Dog</option>
+                </select> 
+            </div>
+            <div class="box2">
+                <p class="p2">in or near...</p>
+                <img class="img" src="assets/pin-light.png" alt="pin">
+                <input class="search_btn" type="search" name="name" placeholder="City or Zip Code">
+            </div>
+            <div class="box3">
+                <h1 class="find_friend"><a href="#"><span class="text">Find your new best friend</span></a></h1> 
+            </div>
+        </div>
+    </div>
+    <div class="main">
+        <div class="row1" onclick="like ('l1')">
+            <img src="assets/pepper.jpg" class="photos" alt="pepper">
+            <p><span class="name">Pepper</span>
+                Pepper is a slightly shy grey tabby, but she<br>
+                really loves showin her human affection</p>
+            <p><span class="petting" id="l1">3</span> petting(s)<br>
+            <span class="pet_btn"><a href="#">Pet Pepper</a></span></p>
+        </div>
+        <div class="row2" onclick="like ('l2')">
+            <img class="photos" src="assets/bruce.jpg" alt="bruce">
+            <p><span class="name">Bruce</span>
+                Bruce is a loyal companion. He loves long <br>
+                walks and cold weather.</p>
+            <p><span class="petting" id="l2">5</span> petting(s)<br>
+            <span class="pet_btn"><a href="#">Pet Bruce</a></span></p>
+        </div>
+        <div class="row3" onclick="like ('l3')">
+            <img class="photos" src="assets/oscar.jpg" alt="oscar">
+            <p><span class="name">Bruce</span>
+                Oscar is bright, energetic and friendly. He is<br>
+                looking for a good home.</p>
+            <p><span class="petting" id="l3">8</span> petting(s)<br>
+            <span class="pet_btn"><a href="#">Pet Oscar</a></span></p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

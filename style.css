@@ -1,0 +1,211 @@
+*{
+    margin: 0px;
+
+}
+.nav{
+    border: 4px solid black;
+    background-color: rgb(26, 170, 167);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 250px;
+    
+}
+.nav a {
+    text-decoration: none;
+    color: black;
+
+}
+.header{
+    
+    display: flex;
+    justify-content: center;
+    height: 200px;
+    padding: 0px 165px 0px 120px;
+
+    
+}
+.title{
+    flex: 1;
+    color: azure;
+    font-size: 30px;
+    display: flex;
+    padding: 25px;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+.heart_light{
+    height: 65px;
+    margin: 0px 30px 20px 20px;
+}
+
+.links{
+    flex: 1;
+    display: flex;
+    align-items: baseline;
+    justify-content: space-evenly;
+    font-size: 30px;
+    list-style-type: none;
+    margin-top: 20px;
+    padding: 25px;
+}
+
+
+.find_btn{
+    margin: 20px;
+}
+
+.about_btn{
+    padding: 5px;
+
+}
+.donate_btn{
+    background-color: azure;
+    color: rgb(134, 41, 168);
+    border: 3px solid rgb(134, 41, 168);
+    box-shadow: 3px 3px black;
+    width: 115px;
+    font-weight: bold;
+    padding-left:15px;
+}
+.donate{
+    color: purple;
+}
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0px 200px 0px 200px;
+    margin-bottom: 25px;
+
+}
+.img{
+    height: 50px;
+    margin-bottom: -15px;
+}
+.select_btn{
+    padding: 5px;
+    border: 3px solid black;
+    width: 250px;
+    font-size: 20px;
+    margin-bottom: 20px;
+    
+}
+.search_btn{
+    padding: 5px;
+    border: 3px solid black;
+    width: 250px;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.find_friend{
+    background-color: rgb(134, 41, 168);
+    color: azure;
+    padding: 5px;
+    border: 3px solid black;
+    box-shadow: 2px 2px black;
+    font-size: 25px;
+    margin-top: 35px;
+    list-style-type: none;
+    text-decoration: none;
+    width: 300px;
+    margin-bottom: 20px;
+}
+.p1{
+    color: white;
+    margin-left: 10px;
+    font-size: 22px;
+}
+.p2{
+    color: white;
+    font-size: 22px;
+    margin-left: 10px;
+}
+.main{
+    width: 1060px;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    left: 175px;
+    padding: 10px;
+    justify-content: space-around;
+
+}
+.photos{
+    height: 130px;
+    padding: 10px;
+}
+.row1{
+    display: flex;
+    align-items: center;
+    background-color: rgb(227, 227, 227);
+    border-radius: 4%;
+    padding: 10px;
+    margin: 20px;
+
+
+}
+.row2{
+    display: flex;
+    align-items: center;
+    background-color:rgb(227, 227, 227);
+    border-radius: 4%;
+    padding: 10px;
+    margin: 20px;
+}
+
+.row3{
+    display: flex;
+    align-items: center;
+    background-color: rgb(227, 227, 227);
+    border-radius: 4%;
+    padding: 10px;
+    margin: 20px;
+}
+.row1 , .row2 , .row3{
+    font-size: 25px;
+    display: flex;
+    justify-content: space-between;
+}
+.name{
+    display: flex;
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 10px;
+
+}
+.pet_btn{
+    display: flex;
+    color: azure;
+    width: 250px;
+    background-color: rgb(57, 225, 223);
+    color: azure;
+    border: 4px solid black;
+    box-shadow: 4px 4px black;
+    padding: 5px 25px 5px 25px;
+    font-size: 20px;
+    margin: 15px;
+    text-decoration: none;
+    list-style-type: none;
+    justify-content: center;
+
+}
+.petting{
+    margin-left: 200px;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+.pet_btn a{
+    color: azure;
+    text-decoration: none;
+
+}
+.text{
+    color: azure;
+    font-size: 22px;
+    font-weight: lighter;
+    display: flex;
+    justify-content: center;
+}
+
